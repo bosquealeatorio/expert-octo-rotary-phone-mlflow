@@ -1,0 +1,12 @@
+name: flow-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - conda-forge::mlflow==2.10.2
+  - anaconda::virtualenv
+  - anaconda::ipython
+  - anaconda::ipykernel
+  - anaconda::scikit-learn
+  - conda-forge::matplotlib
+prefix: /Users/manuelmontoya/anaconda3/envs/flow-env
